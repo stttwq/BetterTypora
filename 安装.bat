@@ -16,6 +16,6 @@ REM     -Yes          Skip confirmation (for scripted deployment)
 REM =====================================================================
 setlocal
 cd /d "%~dp0"
-powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0core.ps1" %*
+pwsh -NoProfile -ExecutionPolicy Bypass -File "%~dp0core.ps1" %*
 echo.
 pause

@@ -2,12 +2,12 @@
 # BetterTypora 安装器
 # =====================================================================
 # 用法:
-#   powershell -NoProfile -ExecutionPolicy Bypass -File core.ps1
-#   powershell -NoProfile -ExecutionPolicy Bypass -File core.ps1 -Uninstall
-#   powershell -NoProfile -ExecutionPolicy Bypass -File core.ps1 -Uninstall -Purge
-#   powershell -NoProfile -ExecutionPolicy Bypass -File core.ps1 -Uninstall -KeepPlugins
-#   powershell -NoProfile -ExecutionPolicy Bypass -File core.ps1 -TyporaDir "D:\Tools\Typora\resources"
-#   powershell -NoProfile -ExecutionPolicy Bypass -File core.ps1 -TyporaDir "D:\Tools\Typora\resources" -Yes
+#   pwsh -NoProfile -ExecutionPolicy Bypass -File core.ps1
+#   pwsh -NoProfile -ExecutionPolicy Bypass -File core.ps1 -Uninstall
+#   pwsh -NoProfile -ExecutionPolicy Bypass -File core.ps1 -Uninstall -Purge
+#   pwsh -NoProfile -ExecutionPolicy Bypass -File core.ps1 -Uninstall -KeepPlugins
+#   pwsh -NoProfile -ExecutionPolicy Bypass -File core.ps1 -TyporaDir "D:\Tools\Typora\resources"
+#   pwsh -NoProfile -ExecutionPolicy Bypass -File core.ps1 -TyporaDir "D:\Tools\Typora\resources" -Yes
 #
 # 功能:
 #   1. 自动定位 Typora 的 resources 目录 (运行进程 / 注册表 / 显式指定)

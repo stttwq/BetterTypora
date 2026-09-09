@@ -2,8 +2,8 @@
 # BetterTypora 发布包构建脚本
 # =====================================================================
 # 用法:
-#   powershell -NoProfile -ExecutionPolicy Bypass -File scripts\build-release.ps1
-#   powershell -NoProfile -ExecutionPolicy Bypass -File scripts\build-release.ps1 -Version v1.1.0
+#   pwsh -NoProfile -ExecutionPolicy Bypass -File scripts\build-release.ps1
+#   pwsh -NoProfile -ExecutionPolicy Bypass -File scripts\build-release.ps1 -Version v1.1.0
 #
 # 产物: BetterTypora-<Version>.zip 和对应的 .sha256 (仓库根目录)
 # 布局:
